@@ -1,0 +1,114 @@
+# For sunzhongmou.com configuration
+baseurl = "https://www.sunzhongmou.com"
+languageCode = "zh-cn"
+title = "仲谋科技 - life is easy"
+theme = "hugo-creative-theme"
+
+[params]
+
+	name = "仲谋科技"
+	description = "仲谋科技 - life is easy"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.png"
+
+ 	[params.language]
+		current = "中文"
+
+		[[params.language.available]]
+			name = "中文"
+			url = "https://www.sunzhongmou.com/"
+
+	# Navigation
+	[params.navigation.main]
+		brand = "仲谋科技"
+		news = "热点"
+		services  = "服务"
+		about     = "关于"
+		download = "下载"
+		support = "支持"
+
+    [params.navigation.news]
+		home = "最新消息"
+		archives = "更多消息"
+
+	[params.navigation.download]
+		home = "Overview"
+		community_editions = "Manjaro Community Editions"
+		preview_editions = "Developer previews"
+
+	[params.navigation.features]
+		home = "说明"
+
+	[params.navigation.support]
+		home = "Overview"
+		wiki = "Wiki"
+		forum = "Forum"
+		email = "E-Mail"
+
+	[params.navigation.getinvolved]
+		home = "You can help!"
+		forum = "Forums"
+		donate = "Donate"
+		bugs = "Bugtracker"
+		team = "Our team"
+		sponsors = "Our sponsors"
+
+	# Hero section*
+	[params.hero]
+		image = "zm-logo.png"
+		slogan     = "仲谋科技"
+		subslogan = "开源 & 免费"
+		subtitle = "只生产好的服务，开源并且免费。 <br/> 欢迎来信，交流和支持。"
+
+		callToAction = "了解更多"
+		callToActionUrl = "#about"
+		learnMore = "或直接下载"
+		learnMoreUrl = "#downloads"
+
+	[params.posthome]
+		callToAction = "更多关于我们的消息"
+		callToActionUrl = ";baseurl;download"
+
+	[params.team]
+		name = "Name"
+		alias = "Alias"
+		role = "Role"
+		involvements = "Involements"
+		email = "E-Mail"
+		languages = "Languages"
+		location = "Location"
+		yob = "Year of birth"
+
+
+	# About section
+	[params.about]
+		headline    = "和你一同成长"
+		description = "打造优质软件服务，开源并可免费使用，如需帮助，我们也可以提供技术支持；由仲谋科技设计并开源的服务，我们都会附上友好的使用说明，让你方便理解并入门，如需了解更多细节，如技术架构，我们也可以提供对应说明或手册。从新人到专家，我们都有适合你的支持。"
+		buttonText  = "Get started!"
+
+	# Contact section
+	[params.donate]
+		headline = "Help us"
+		description = "Besides participating in discussions to improve Manjaro, helping other users or help developing new functions, you can always donate money to help keeping our infrastructure funded. Just a few bucks can help to keep our website and forums ad-free, reliable and secure."
+		conditions = "A donation counts as a private donation and is kept anonymous by us. That means that we won't share or publish any details about you and your donation. Donators get no rights or privileges - everybody can participate, whether they donated or not. Manjaro is still relatively young and a growing distribution - we are no registered organization. That means that we cannot give you a reciept that deduct taxes. For the same reason, the donation cannot go to a 'Manjaro Linux' organization, but goes to the head of the Manjaro team."
+
+		[params.donate.account]
+			account_holder = "Hanns Philip Müller"
+			account_number = "1050676905"
+			bank_identification = "12030000"
+			bank = "DKB"
+			bic = "BYLADEM1001"
+			iban = "DE90120300001050676905"
+			purpose = "Donation to Manjaro Linux"
+			note = "If you want a confirmation that we got your donation, just add your E-Mail adress to the purpose."
+
+	[params.download_edition]
+		download_x64_title = "64 bit version"
+		download_x86_title = "32 bit version"
+		download_x64_button = "Download 64 bit version"
+		download_x86_button = "Download 32 bit version"
+		download_x64_description = "Download the 64 bit version if you use a modern computer and the the maximum performance and full benefits of your modern hardware."
+		download_x86_description = "Download the 32 bit version if you use an older computer or if you are unsure if your computer supports the 64 bit version."
+		download_gpg = "Download GPG signature"
+		download_torrent = "Download Torrent"
