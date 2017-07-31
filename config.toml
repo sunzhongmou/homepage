@@ -67,8 +67,8 @@ theme = "hugo-creative-theme"
 		learnMoreUrl = "#downloads"
 
 	[params.posthome]
-		callToAction = "更多关于我们的消息"
-		callToActionUrl = ";baseurl;download"
+		callToAction = "更多有关我们的消息"
+		callToActionUrl = ";baseurl;features/usercases/"
 
 	[params.team]
 		name = "Name"
