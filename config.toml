@@ -1,5 +1,5 @@
 # For sunzhongmou.com configuration
-baseurl = "https://www.sunzhongmou.com"
+baseurl = "https://www.sunzhongmou.com/"
 languageCode = "zh-cn"
 title = "仲谋科技 - life is easy"
 theme = "hugo-creative-theme"
