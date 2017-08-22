@@ -1,5 +1,6 @@
 <aside class="bg-dark"  >
     <div class="container text-center">
+
         <div class="call-to-action">
 
           {{ range (where .Site.Pages ".Type" "download-how-to-try") }}
@@ -11,5 +12,16 @@
           <a class="btn btn-primary btn-xl page-scroll" href="{{ .Site.Params.posthome.callToActionUrl | replaceRE ";baseurl;" .Site.BaseURL}}">{{ .Site.Params.posthome.callToAction}}</a>
 
         </div>
+
+        <br/><br/>
+        <p><a href="https://www.sunzhongmou.com"><img src="https://img.shields.io/badge/Official_Website-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="The official website"></a>
+            <a href="http://weibo.com/zmtech"><img src="https://img.shields.io/badge/Weibo-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="微博"></a>
+            <a href="https://twitter.com/szm_tech"><img src="https://img.shields.io/badge/Tweet-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="Tweet"></a>
+            <a href="https://www.npmjs.com/~sunzhongmou"><img src="https://img.shields.io/badge/NPM-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="NPM"></a>
+            <a href="https://github.com/sunzhongmou"><img src="https://img.shields.io/badge/GitHub-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="GitHub"></a>
+            <a href="http://www.jianshu.com/u/e41dcab0d8ce"><img src="https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="简书"></a>
+            <a href="https://www.youtube.com/channel/UCtEfD4Ut7_0Btqx2Kw104VA"><img src="https://img.shields.io/badge/Youtube-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="Youtube"></a>
+            <a href="http://i.youku.com/ihakula?spm=a2hzp.8244740.0.0"><img src="https://img.shields.io/badge/%E4%BC%98%E9%85%B7-%E4%BB%B2%E8%B0%8B%E7%A7%91%E6%8A%80-brightgreen.svg" alt="优酷"></a>
+        </p>
     </div>
 </aside>
